@@ -1,0 +1,18 @@
+# 依存ライブラリ（重いので上げない）
+node_modules
+dist
+plugin/dist
+
+# ログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# kintone関連（秘密情報なので絶対に上げない！）
+.env
+*.ppk
+*.zip
+
+# OSのシステムファイル
+.DS_Store
+Thumbs.db
