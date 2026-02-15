@@ -1,5 +1,5 @@
 {
-  "name": "app-12-viteplugin",
+  "name": "app-195-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,13 @@
     "upload": "node upload.mjs"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.8",
+    "date-fns": "^4.1.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "sweetalert2": "^11.26.18"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
